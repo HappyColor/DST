@@ -1,7 +1,6 @@
 # DST
 ![DST_framework](./figures/framework.png)
-Paper: DST: Deformable Speech Transformer for Emotion Recognition
-This paper was accepted by [ICASSP 2023](https://ieeexplore.ieee.org/abstract/document/10096966).
+[\[ICASSP 2023 Paper\]](https://ieeexplore.ieee.org/abstract/document/10096966) DST: Deformable Speech Transformer for Emotion Recognition
 
 # Usage
 ```
