@@ -1,7 +1,6 @@
 exp/
 result/
 temp/
-km_init/
 .vscode/
 
 __pycache__/
