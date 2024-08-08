@@ -66,8 +66,8 @@ class Deformable_Attention(nn.Module):
         # b t nh
         offset_duration = self.offset_duration(Q) #* self.length
         offset, duration = offset_duration.chunk(2, dim=-1)
-        offset = offset.tanh_() * self.length
-        duration = duration.sigmoid_() * self.length
+        offset = torch.tanh(offset) * self.length
+        duration = torch.sigmoid(duration) * self.length
 
         query_index = self.query_index(x.shape[0], x.dtype, x.device)
         anchor = query_index + offset
